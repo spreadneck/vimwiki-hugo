@@ -1,0 +1,45 @@
+baseURL: "https://yourdomain.example.com/"
+title: "My Wiki & Blog"
+theme: hugo-book
+
+# Book configuration
+disablePathToLower: true
+enableGitInfo: true
+
+# Markdown rendering options
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+# No multilingual setup for now
+
+menu:
+  after:
+    - name: "Blog"
+      url: "/posts/"
+      weight: 1
+    # Example: add a GitHub link
+    # - name: "GitHub"
+    #   url: "https://github.com/yourusername/yourrepo"
+    #   weight: 10
+
+params:
+  BookTheme: "auto"         # auto-switch dark/light
+  BookToC: true             # show table of contents
+  BookSection: docs         # wiki section (your content/_index.md is docs home)
+  BookDateFormat: "2006-01-02"
+  BookSearch: true
+  BookComments: false
+  BookPortableLinks: true
+  BookServiceWorker: true
+
+  # (optional)
+  # BookRepo: "https://github.com/yourusername/yourrepo"
+  # BookEditPath: "edit/main/content"
+
+# If your favicon or logo is in static/, uncomment and set below
+# BookFavicon: "favicon.png"
+# BookLogo: "logo.png"

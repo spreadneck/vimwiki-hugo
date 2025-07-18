@@ -13,7 +13,7 @@ require("lazy").setup({
         },
       }
       vim.g.vimwiki_diary_rel_path = "posts"     
-      vim.g.vimwiki_diary_index = "_index.md"
+      vim.g.vimwiki_diary_index = "_index"
     end,
   },
 
