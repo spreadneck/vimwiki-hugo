@@ -1,4 +1,3 @@
-                       
 ---
 title: "$DATE"
 date: $TODAY

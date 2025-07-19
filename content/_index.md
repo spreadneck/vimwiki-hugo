@@ -1,10 +1,9 @@
-                       
 ---
 title: Introduction
 type: docs
 ---
 
-# Introduction
+## Introduction
 
 Welcome to my personal wiki and blog! This site is a collection of notes, thoughts, and projects that I've been working on. Feel free to explore!
 

@@ -1,4 +1,3 @@
-                       
 ## 0.1.2025.07.19.1
 
 - _Describe your changes here._

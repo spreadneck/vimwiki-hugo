@@ -1,4 +1,3 @@
-                       
 # 0.1 Release QA Checklist
 
 ## Pre-Release

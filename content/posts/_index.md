@@ -1,4 +1,3 @@
-                       
 ---
 title: "Journal"
 date: 2025-07-18
