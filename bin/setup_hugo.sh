@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -euo pipefail
 
 # 1. Ensure hugo is installed
 if ! command -v hugo &> /dev/null; then
