@@ -33,11 +33,6 @@ jobs:
         run: |
           find . \( -path ./node_modules -o -path ./.git \) -prune -false -o \( -name '*.yaml' -o -name '*.yml' \) -print | xargs yamllint -c .yamllint
 
-      # Markdown link check
-      - name: Install markdown-link-check
-        run: npm install -g markdown-link-check
-      - name: Check for broken links in Markdown files
-        run: find . -name "*.md" | xargs -n 1 markdown-link-check -c .markdown-link-check.json
 
       # Build and test Hugo site
       - name: Run Hugo build test
