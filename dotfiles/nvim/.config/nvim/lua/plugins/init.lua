@@ -12,8 +12,30 @@ require("lazy").setup({
 	  index = "_index",
         },
       }
-      vim.g.vimwiki_diary_rel_path = "posts"     
+      vim.g.vimwiki_diary_rel_path = "posts"
       vim.g.vimwiki_diary_index = "_index"
+
+      -- Default templates for new wiki pages and diary entries
+      vim.g.vimwikitemplates = {
+        default = {
+          "---",
+          'title: "%filename%"',
+          "draft: false",
+          "---",
+          "",
+        },
+      }
+
+      vim.g.vimwikidiarytemplates = {
+        default = {
+          "---",
+          'title: "%date%"',
+          "date: %date%",
+          "draft: true",
+          "---",
+          "",
+        },
+      }
     end,
   },
 
