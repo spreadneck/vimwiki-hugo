@@ -25,10 +25,15 @@ menu:
     - name: "Journal"
       url: "/posts/"
       weight: 1
-    # Example: add a GitHub link
-    # - name: "GitHub"
-    #   url: "https://github.com/yourusername/yourrepo"
-    #   weight: 10
+    - name: "Contributing"
+      url: "https://github.com/spreadneck/vimwiki-hugo/blob/main/CONTRIBUTING.md"
+      weight: 20
+    - name: "Changelog"
+      url: "https://github.com/spreadneck/vimwiki-hugo/blob/main/CHANGELOG.md"
+      weight: 21
+    - name: "License"
+      url: "https://github.com/spreadneck/vimwiki-hugo/blob/main/LICENSE"
+      weight: 22
 
 params:
   BookTheme: "auto"

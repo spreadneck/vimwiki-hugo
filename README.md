@@ -6,6 +6,7 @@
 [![Hugo](https://img.shields.io/badge/built%20with-hugo-ff4088?logo=hugo)](https://gohugo.io/)
 
 ---
+
 ## 📖 About
 A personal knowledge base, blog, and developer log powered by [Hugo Book](https://github.com/alex-shpak/hugo-book) with seamless Vimwiki and Neovim integration.
 
@@ -83,3 +84,24 @@ make build
 ---
 
 ## 📚 Structure
+
+## 📚 Documentation & Community
+
+- [Changelog](./CHANGELOG.md) — See what's new in each release
+- [Contributing Guide](./CONTRIBUTING.md) — How to contribute code, docs, or report bugs
+- [Release Checklist](./RELEASE_CHECKLIST.md) — Maintainer checklist for new versions
+
+## Local Pre-commit Hooks
+
+We use [pre-commit](https://pre-commit.com/) to auto-check Markdown and YAML code style before each commit.
+
+**Setup once:**
+```sh
+pip install pre-commit
+pre-commit install
+```
+
+**Run manually (all files):**
+```sh
+pre-commit run --all-files
+```
