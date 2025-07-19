@@ -1,0 +1,19 @@
+name: Enforce Gitflow Branching & Conventional Commits
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened, ready_for_review]
+
+jobs:
+  gitflow-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run Gitflow & Conventional Commit Checks
+        run: |
+          chmod +x bin/gitflow-check.sh
+          bin/gitflow-check.sh \
+            "${{ github.head_ref }}" \
+            "${{ github.base_ref }}" \
+            "${{ github.event.pull_request.title }}"
