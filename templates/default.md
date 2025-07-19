@@ -1,3 +1,4 @@
+                       
 ---
 title: "$VIMWIKI_TITLE"
 date: $TODAY
