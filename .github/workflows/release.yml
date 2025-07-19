@@ -3,7 +3,7 @@ name: Release Automation
 on:
   push:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   build-release:
@@ -14,7 +14,7 @@ jobs:
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.123.7'
+          hugo-version: "0.123.7"
           extended: true
 
       - name: Build Hugo site for prod

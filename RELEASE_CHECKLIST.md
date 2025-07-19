@@ -1,6 +1,7 @@
 # 0.1 Release QA Checklist
 
 ## Pre-Release
+
 - [ ] CI pipelines pass on `main` (build, lint, and test workflows)
 - [ ] All shell, YAML, and Markdown scripts have linted cleanly
 - [ ] Changelog is up-to-date with changes for this version
@@ -15,4 +16,4 @@
 ## Release
 
 - [ ] Run the version bump script:
-  ./bin/bump_version.sh X.Y
+      ./bin/bump_version.sh X.Y

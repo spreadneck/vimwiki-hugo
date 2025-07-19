@@ -37,8 +37,8 @@ menu:
 
 params:
   BookTheme: "auto"
-  BookSection: docs         # auto-switch dark/light
-  BookToC: false             # show table of contents
+  BookSection: docs # auto-switch dark/light
+  BookToC: false # show table of contents
   BookDateFormat: "2006-01-02"
   BookSearch: true
   BookComments: false
@@ -49,7 +49,6 @@ params:
   # (optional)
   # BookRepo: "https://github.com/yourusername/yourrepo"
   # BookEditPath: "edit/main/content"
-
 # If your favicon or logo is in static/, uncomment and set below
 # BookFavicon: "favicon.png"
 # BookLogo: "logo.png"

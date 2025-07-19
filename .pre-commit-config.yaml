@@ -3,7 +3,7 @@ repos:
     rev: v0.9.2
     hooks:
       - id: markdownlint-cli2
-        args: [--config, .markdownlint.json, '**/*.md']
+        args: [--config, .markdownlint.json, "**/*.md"]
   - repo: https://github.com/adrienverge/yamllint.git
     rev: v1.32.0
     hooks:

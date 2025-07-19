@@ -1,4 +1,4 @@
-# My Wiki & Blog 
+# My Wiki & Blog
 
 [![GitHub release](https://img.shields.io/github/release/spreadneck/vimwiki-hugo.svg)](https://github.com/spreadneck/vimwiki-hugo/releases/latest)
 [![CI Status](https://github.com/spreadneck/vimwiki-hugo/actions/workflows/ci.yml/badge.svg)](https://github.com/spreadneck/vimwiki-hugo/actions)
@@ -8,6 +8,7 @@
 ---
 
 ## 📖 About
+
 A personal knowledge base, blog, and developer log powered by [Hugo Book](https://github.com/alex-shpak/hugo-book) with seamless Vimwiki and Neovim integration.
 
 ---
@@ -96,12 +97,14 @@ make build
 We use [pre-commit](https://pre-commit.com/) to auto-check Markdown and YAML code style before each commit.
 
 **Setup once:**
+
 ```sh
 pip install pre-commit
 pre-commit install
 ```
 
 **Run manually (all files):**
+
 ```sh
 pre-commit run --all-files
 ```
