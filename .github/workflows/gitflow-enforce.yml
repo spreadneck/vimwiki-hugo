@@ -14,6 +14,6 @@ jobs:
         run: |
           chmod +x bin/gitflow-check.sh
           bin/gitflow-check.sh \
-            "${ github.head_ref }}" \
-            "${ github.base_ref }}" \
-            "${ github.event.pull_request.title }}"
+            "${{ github.head_ref }}" \
+            "${{ github.base_ref }}" \
+            "${{ github.event.pull_request.title }}"
