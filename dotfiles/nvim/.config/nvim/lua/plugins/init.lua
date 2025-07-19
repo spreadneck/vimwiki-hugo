@@ -13,7 +13,7 @@ require("lazy").setup({
           template_path = "~/vimwiki-hugo/templates",
           template_default = "default",
           template_ext = ".md",
-          index = "_index",p
+          index = "_index",
 
         },
       }

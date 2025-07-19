@@ -32,7 +32,7 @@ if [[ ! -f VERSION ]]; then
   exit 2
 fi
 
-LAST_VERSION=$(cat VERSION | tr -d '[:space:]')
+LAST_VERSION=$(tr -d '[:space:]' < VERSION)
 RE="^([0-9]+)\.([0-9]+)\.([0-9]{4})\.([0-9]{2})\.([0-9]{2})\.([0-9]+)$"
 
 PATCH=1
