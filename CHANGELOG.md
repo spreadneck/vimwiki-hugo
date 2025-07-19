@@ -1,3 +1,6 @@
+## 0.0.2025.07.18.2
+- _Describe your changes here._
+
 
 ## 0.0.2025.07.18.1
 - adopt new version scheme `MAJOR.MINOR.YYYY.MM.DD.PATCH`
