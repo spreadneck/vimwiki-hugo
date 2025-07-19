@@ -12,7 +12,7 @@
 
 ## 📖 About
 
-A personal knowledge base, blog, and developer log powered by [Hugo Book](<https://github.com/alex-shpak/hugo-book)> with seamless Vimwiki and Neovim integration.
+A personal knowledge base, blog, and developer log powered by [Hugo Book](<https://github.com/alex-shpak/hugo-book) with seamless Vimwiki and Neovim integration.
 
 ---
 
