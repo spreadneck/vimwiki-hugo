@@ -5,8 +5,6 @@
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Hugo](https://img.shields.io/badge/built%20with-hugo-ff4088?logo=hugo)](https://gohugo.io/)
 
----
-
 ## 📖 About
 
 A personal knowledge base, blog, and developer log powered by [Hugo Book](<https://github.com/alex-shpak/hugo-book)> with seamless Vimwiki and Neovim integration.
