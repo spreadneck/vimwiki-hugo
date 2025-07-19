@@ -7,3 +7,6 @@ type: docs
 
 ## [posts](posts/_index.md)
 
+
+[NEW](NEW.md)
+
