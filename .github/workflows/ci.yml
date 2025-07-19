@@ -15,6 +15,6 @@ jobs:
           hugo-version: '0.123.7'
           extended: true
       - name: Run shellcheck
-        uses: ludeeus/action-shellcheck@v2
+        uses: azohra/shellcheck-action@v0.8.0
       - name: Run Hugo build test
         run: tests/hugo_build_test.sh
