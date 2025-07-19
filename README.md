@@ -2,8 +2,13 @@
 
 [![GitHub release](https://img.shields.io/github/release/spreadneck/vimwiki-hugo.svg)](https://github.com/spreadneck/vimwiki-hugo/releases/latest)
 [![CI Status](https://github.com/spreadneck/vimwiki-hugo/actions/workflows/ci.yml/badge.svg)](https://github.com/spreadneck/vimwiki-hugo/actions)
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://shields.io/)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
 [![Hugo](https://img.shields.io/badge/built%20with-hugo-ff4088?logo=hugo)](https://gohugo.io/)
+[![Neovim](https://img.shields.io/badge/built%20with-Neovim-57A143?logo=neovim&logoColor=fff)](https://neovim.io/)
+[![Vimwiki](https://img.shields.io/badge/built%20with-Vimwiki-019833?logo=vim&logo)](https://github.com/vimwiki/vimwiki)
+[![Markdown](https://img.shields.io/badge/because%20we%20love-Markdown-%23000000.svg?logo=markdown&logoColor=white)](https://www.markdownguide.org/)
 
 ## 📖 About
 
