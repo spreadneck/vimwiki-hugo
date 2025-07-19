@@ -102,7 +102,7 @@ Available at http://localhost:1313
 
 ## License
 
-MIT for your work.  
+This project is licensed under the [MIT License](LICENSE).
 Hugo Book theme is under [MIT](themes/hugo-book/LICENSE).
 
 ---
