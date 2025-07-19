@@ -26,7 +26,7 @@ vim.api.nvim_create_autocmd("BufNewFile", {
 })
 
 vim.api.nvim_create_autocmd("BufNewFile", {
-  pattern = "*/vimwiki-hugo/content:/*.md",
+  pattern = "*/vimwiki-hugo/content/*.md",
   callback = function(args)
     local filename = vim.fn.fnamemodify(args.file, ":t:r")
     local title = filename:gsub("_", " ")
