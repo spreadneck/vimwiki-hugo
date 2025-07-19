@@ -5,7 +5,11 @@
 [![MIT License](<https://img.shields.io/badge/license-MIT-blue)](LICENSE)>
 [![Hugo](<https://img.shields.io/badge/built%20with-hugo-ff4088?logo=hugo)](https://gohugo.io/)>
 
-A personal knowledge base, blog, and developer log powered by [Hugo Book](<<<<<<<https://github.com/alex-shpak/hugo-book)>>>>>>> with seamless Vimwiki and Neovim integration.
+---
+
+## 📖 About
+
+A personal knowledge base, blog, and developer log powered by [Hugo Book](<https://github.com/alex-shpak/hugo-book)> with seamless Vimwiki and Neovim integration.
 
 ---
 
@@ -38,15 +42,15 @@ A personal knowledge base, blog, and developer log powered by [Hugo Book](<<<<<<
 
 ### 1. Prerequisites
 
-- [Hugo Extended](<<<<<<<https://gohugo.io/getting-started/installing/)>>>>>>> `0.134+`
-- [git](<<<<<<<https://git-scm.com/)>>>>>>> (with submodule support)
-- [GNU Stow](<<<<<<<https://www.gnu.org/software/stow/)>>>>>>>
-- [Neovim](<<<<<<<https://neovim.io/)>>>>>>> with [Vimwiki](<<<<<<<https://github.com/vimwiki/vimwiki)>>>>>>>
+- [Hugo Extended](<https://gohugo.io/getting-started/installing/)> `0.134+`
+- [git](<https://git-scm.com/)> (with submodule support)
+- [GNU Stow](<https://www.gnu.org/software/stow/)>
+- [Neovim](<https://neovim.io/)> with [Vimwiki](<https://github.com/vimwiki/vimwiki)>
 
 ### 2. Install & Set Up
 
 ```sh
-git clone --recurse-submodules <<<<<<<https://github.com/spreadneck/vimwiki-hugo.git>>>>>>>
+git clone --recurse-submodules <https://github.com/spreadneck/vimwiki-hugo.git>
 cd vimwiki-hugo
 cd dotfiles && stow nvim
 ```
@@ -61,7 +65,7 @@ cd dotfiles && stow nvim
 
 ```sh
 hugo server --minify --themesDir themes
-# ⇒ <<<<<<<http://localhost:1313>>>>>>>
+# ⇒ <http://localhost:1313>
 ```
 
 ### 5. Build Static Site
@@ -90,7 +94,7 @@ make build
 
 ## Local Pre-commit Hooks
 
-We use [pre-commit](<<<<<<<https://pre-commit.com/)>>>>>>> to auto-check Markdown and YAML code style before each commit.
+We use [pre-commit](<https://pre-commit.com/)> to auto-check Markdown and YAML code style before each commit.
 
 **Setup once:**
 
