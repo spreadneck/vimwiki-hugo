@@ -14,7 +14,9 @@ jobs:
         with:
           hugo-version: '0.123.7'
           extended: true
-      - name: Run shellcheck
-        uses: azohra/shellcheck-action@v0.8.0
+      - name: Install ShellCheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+      - name: Run ShellCheck
+        run: shellcheck bin/*.sh
       - name: Run Hugo build test
         run: tests/hugo_build_test.sh
