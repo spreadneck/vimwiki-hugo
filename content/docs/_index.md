@@ -1,9 +1,11 @@
 ---
-title: "DOCS"
+title: "Docs"
 date: 2025-07-19
 draft: false
 ---
 
-# DOCS
+# Docs
 
-Start your note here.
+## [Help](help/_index.md)
+
+## [Cool Stuff](cool_stuff/_index.md)

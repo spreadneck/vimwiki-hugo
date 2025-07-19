@@ -18,7 +18,7 @@ markup:
 
 menu:
   before:
-    - name: "DOCS"
+    - name: "Docs"
       url: "/docs/"
       weight: 1
   after:

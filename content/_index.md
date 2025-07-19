@@ -12,11 +12,9 @@ Welcome to my personal wiki and blog! This site is a collection of notes, though
 There is a blog section where I document the creation of this blog and other projects.
 - [Journal](/posts/_index.md)
 
-- [DOCS](docs/_index.md)
+Here's the main documentation section.
+- [Docs](docs/_index.md)
 
+    - [Help](docs/help/_index.md) - This is where I document some fixes / workarounds for issues I've encountered.
 
-There is a help section where I document how to use this blog and other projects.
-- [Help](/help/_index.md)
-
-There is a cool section where I document cool things I find.
-- [Cool](/cool_stuff/_index.md)
+    - [Cool](docs/cool_stuff/_index.md) - This is stuff I think is neat
