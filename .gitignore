@@ -34,3 +34,5 @@ npm-debug.log
 
 # Keep the Hugo Book theme submodule tracked
 # /themes/hugo-book/
+# Ignore submodule README.md
+/themes/hugo-book/README.md
