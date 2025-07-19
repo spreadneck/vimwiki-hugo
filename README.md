@@ -90,19 +90,21 @@ Available at http://localhost:1313
 
 ## Versioning
 
-This project uses a date stamped semantic scheme:
+This project uses a date-stamped version scheme:
 
 ```
-MAJOR.MINOR.PATCH.YYYY.MM.DD-V
+MAJOR.MINOR.YYYY.MM.DD.PATCH
 ```
 
-- `MAJOR.MINOR.PATCH` follow [semantic versioning](https://semver.org/).
-- `YYYY.MM.DD` records the release date.
-- `V` is the iteration for that day, starting at 1.
+- `MAJOR` and `MINOR` follow [semantic versioning](https://semver.org/). `0.0` denotes a pre-release.
+- `YYYY.MM.DD` is the release date.
+- `PATCH` increments for additional releases on the same day.
 
-Example: `0.1.0.2025.07.18-1`.
+Example: `0.0.2025.07.18.1`.
 
-Tags in git match this exact string.
+Tags in git match this string.
+
+Use `bin/bump_version.sh <version>` to update the `VERSION` file and tag the commit.
 
 ## Customization
 

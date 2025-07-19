@@ -2,7 +2,7 @@
 set -e
 
 if [ -z "$1" ]; then
-  echo "Usage: $0 <MAJOR.MINOR.PATCH.YYYY.MM.DD-V>"
+  echo "Usage: $0 <MAJOR.MINOR.YYYY.MM.DD.PATCH>"
   exit 1
 fi
 
