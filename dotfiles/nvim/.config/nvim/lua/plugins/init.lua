@@ -2,7 +2,6 @@ require("lazy").setup({
   {
     "vimwiki/vimwiki",
     init = function()
-
       vim.g.vimwiki_list = {
         {
           path = "~/vimwiki-hugo/content",
@@ -13,45 +12,28 @@ require("lazy").setup({
           template_path = "~/vimwiki-hugo/templates",
           template_default = "default",
           template_ext = ".md",
-          index = "_index",p
-
+          index = "_index",
         },
       }
       vim.g.vimwiki_diary_rel_path = "posts"
       vim.g.vimwiki_diary_index = "_index"
       vim.g.vimwiki_markdown_link_ext = 1
-
-      -- Default templates for new wiki pages and diary entries
-      vim.g.vimwikitemplates = {
-        default = {
-          "---",
-          'title: "%filename%"',
-          "draft: false",
-          "---",
-          "",
-        },
-      }
-
-      vim.g.vimwikidiarytemplates = {
-        default = {
-          "---",
-          'title: "%date%"',
-          "date: %date%",
-          "draft: true",
-          "---",
-          "",
-        },
-      }
+      -- REMOVE: Lua-side templates, now handled from disk files per Vimwiki templates
     end,
   },
 
   -- 🔧 Core dependencies
-  { "nvim-lua/plenary.nvim" }, -- Needed by many plugins
+  { "nvim-lua/plenary.nvim" },
 
   -- LSP support
   { "neovim/nvim-lspconfig" },
   { "williamboman/mason.nvim" },
   { "williamboman/mason-lspconfig.nvim" },
+  {
+  'plasticboy/vim-markdown',
+  branch = 'master',
+  require = {'godlygeek/tabular'},
+},
 
   -- Formatters and linters
   {

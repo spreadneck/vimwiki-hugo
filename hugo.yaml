@@ -5,8 +5,6 @@ theme: hugo-book
 # Book configuration
 disablePathToLower: true
 enableGitInfo: true
-BookToC: false
-BookSection: 'docs'
 
 # Markdown rendering options
 markup:
@@ -19,8 +17,12 @@ markup:
 # No multilingual setup for now
 
 menu:
+  before:
+    - name: "DOCS"
+      url: "/docs/"
+      weight: 1
   after:
-    - name: "Blog"
+    - name: "Journal"
       url: "/posts/"
       weight: 1
     # Example: add a GitHub link
@@ -29,14 +31,15 @@ menu:
     #   weight: 10
 
 params:
-  BookTheme: "auto"         # auto-switch dark/light
-  BookToC: true             # show table of contents
-  BookSection: docs         # wiki section (your content/_index.md is docs home)
+  BookTheme: "auto"
+  BookSection: docs         # auto-switch dark/light
+  BookToC: false             # show table of contents
   BookDateFormat: "2006-01-02"
   BookSearch: true
   BookComments: false
   BookPortableLinks: true
   BookServiceWorker: true
+  BookRepo: https://github.com/spreadneck/vimwiki-hugo
 
   # (optional)
   # BookRepo: "https://github.com/yourusername/yourrepo"
