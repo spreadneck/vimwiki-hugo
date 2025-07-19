@@ -1,4 +1,14 @@
 {
+  "projectBaseUrl": ".",
+  "replacementPatterns": [
+    { "pattern": "^/(.*)$", "replacement": "{{BASEURL}}/content/$1" },
+    { "pattern": "^./", "replacement": "{{BASEURL}}/" }
+  ],
+  "ignorePatterns": [
+    { "pattern": "101/$" },
+    { "pattern": "^mailto:" }
+  ]
+=======
   "ignorePatterns": [
     {
       "pattern": "^https://github.com/"

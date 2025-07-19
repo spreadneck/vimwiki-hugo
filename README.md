@@ -45,10 +45,10 @@ A personal knowledge base, blog, and developer log powered by [Hugo Book](https:
 
 ### 1. Prerequisites
 
-- [Hugo Extended](<https://gohugo.io/getting-started/installing/)> `0.134+`
-- [git](<https://git-scm.com/)> (with submodule support)
-- [GNU Stow](<https://www.gnu.org/software/stow/)>
-- [Neovim](<https://neovim.io/)> with [Vimwiki](<https://github.com/vimwiki/vimwiki)>
+- [Hugo Extended](https://gohugo.io/getting-started/installing/) `0.134+`
+- [git](https://git-scm.com/) (with submodule support)
+- [GNU Stow](https://www.gnu.org/software/stow/)
+- [Neovim](https://neovim.io/) with [Vimwiki](https://github.com/vimwiki/vimwiki)
 
 ### 2. Install & Set Up
 
@@ -97,7 +97,7 @@ make build
 
 ## Local Pre-commit Hooks
 
-We use [pre-commit](<https://pre-commit.com/)> to auto-check Markdown and YAML code style before each commit.
+We use [pre-commit](https://pre-commit.com/) to auto-check Markdown and YAML code style before each commit.
 
 **Setup once:**
 

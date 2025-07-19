@@ -32,7 +32,7 @@ jobs:
         run: sudo apt-get install -y yamllint
       - name: Run YAML linting
         run: |
-          find . \( -path ./node_modules -o -path ./.git \) -prune -false -o \( -name '*.yaml' -o -name '*.yml' \) -print | xargs yamllint -c .yamllint
+          find . \( -path ./node_modules -o -path ./.git \) -prune -false -o \( -name '*.yaml' -o -name '*.yml' \) -print | xargs yamllint -c .yamllint.yaml
 
       # Markdown link check
       - name: Install markdown-link-check
