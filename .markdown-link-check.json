@@ -1,0 +1,15 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://github.com/"
+    },
+    {
+      "pattern": "^https://localhost:"
+    },
+    {
+      "pattern": "^https://127.0.0.1:"
+    }
+  ],
+  "retryOn429": true,
+  "timeout": 5000
+}
