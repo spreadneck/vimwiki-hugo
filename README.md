@@ -90,9 +90,19 @@ Available at http://localhost:1313
 
 ## Versioning
 
-- **Pre-release/dev**: `0.0.1-0`
-- **First user-ready release**: `0.0.1-1`
-- Follows semantic versioning for subsequent changes
+This project uses a date stamped semantic scheme:
+
+```
+MAJOR.MINOR.PATCH.YYYY.MM.DD-V
+```
+
+- `MAJOR.MINOR.PATCH` follow [semantic versioning](https://semver.org/).
+- `YYYY.MM.DD` records the release date.
+- `V` is the iteration for that day, starting at 1.
+
+Example: `0.1.0.2025.07.18-1`.
+
+Tags in git match this exact string.
 
 ## Customization
 
