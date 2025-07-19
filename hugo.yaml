@@ -37,8 +37,8 @@ menu:
 
 params:
   BookTheme: "auto"
-  BookSection: docs # auto-switch dark/light
-  BookToC: false # show table of contents
+  BookSection: docs  # auto-switch dark/light
+  BookToC: false  # show table of contents
   BookDateFormat: "2006-01-02"
   BookSearch: true
   BookComments: false
