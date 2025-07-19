@@ -1,6 +1,6 @@
 {
   "default": true,
-  "MD013": false, // Ignore line length (helps with URLs/code blocks)
-  "MD033": false, // Allow inline HTML
-  "MD041": false // Don't require first line to be a heading
+  "MD013": false,
+  "MD033": false,
+  "MD041": false
 }
