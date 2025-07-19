@@ -3,12 +3,12 @@ name: ShellCheck
 on:
   push:
     paths:
-      - 'bin/*.sh'
-      - '.github/workflows/shellcheck.yml'
+      - "bin/*.sh"
+      - ".github/workflows/shellcheck.yml"
   pull_request:
     paths:
-      - 'bin/*.sh'
-      - '.github/workflows/shellcheck.yml'
+      - "bin/*.sh"
+      - ".github/workflows/shellcheck.yml"
 
 jobs:
   shellcheck:

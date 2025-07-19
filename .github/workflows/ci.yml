@@ -12,11 +12,43 @@ jobs:
       - uses: actions/checkout@v3
       - uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.123.7'
+          hugo-version: "0.123.7"
           extended: true
+
+      # ShellCheck
       - name: Install ShellCheck
         run: sudo apt-get update && sudo apt-get install -y shellcheck
       - name: Run ShellCheck
         run: shellcheck bin/*.sh
+
+      # Markdown lint
+      - name: Install markdownlint-cli2
+        run: npm install -g markdownlint-cli2
+      - name: Run Markdown linting
+        run: markdownlint-cli2 '**/*.md' '#node_modules'
+
+      # YAML lint
+      - name: Install yamllint
+        run: sudo apt-get install -y yamllint
+      - name: Run YAML linting
+        run: |
+          find . \( -path ./node_modules -o -path ./.git \) -prune -false -o \( -name '*.yaml' -o -name '*.yml' \) -print | xargs yamllint -c .yamllint.yaml
+
+      # Markdown link check
+      # - name: Install markdown-link-check
+      #   run: npm install -g markdown-link-check
+      # - name: Check for broken links in Markdown files
+      #   run: find . -name "*.md" | xargs -n 1 markdown-link-check -c .markdown-link-check.json
+
+      # Build and test Hugo site
       - name: Run Hugo build test
         run: tests/hugo_build_test.sh
+
+      # htmltest on built static site
+      - name: Install htmltest
+        run: |
+          wget https://github.com/wjdp/htmltest/releases/download/v0.17.0/htmltest_0.17.0_linux_amd64.tar.gz
+          tar -xzf htmltest_0.17.0_linux_amd64.tar.gz
+          sudo mv htmltest /usr/local/bin/
+      - name: Check built site for broken links
+        run: htmltest --config .htmltest.yml ./public
