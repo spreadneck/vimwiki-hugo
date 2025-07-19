@@ -4,15 +4,18 @@ require("lazy").setup({
     init = function()
       vim.g.vimwiki_list = {
         {
-          path = "~/vimwiki-hugo/content",
+          path = "~/vimwiki-hugo/content/docs",
           syntax = "markdown",
           ext = ".md",
           auto_export = 0,
           links_space_char = "_",
-	  index = "_index",
+          template_path = "~/vimwiki-hugo/templates",
+          template_default = "default",
+          template_ext = ".md",
+          index = "_index",
         },
       }
-      vim.g.vimwiki_diary_rel_path = "posts"
+      vim.g.vimwiki_diary_rel_path = "~/vimwiki-hugo/content/posts"
       vim.g.vimwiki_diary_index = "_index"
 
       -- Default templates for new wiki pages and diary entries

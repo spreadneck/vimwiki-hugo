@@ -1,5 +1,7 @@
 # Hugo build artifacts
 /public/
+/resources/
+.hugo_build.lock
 
 # Swap and temporary files
 *.swp
